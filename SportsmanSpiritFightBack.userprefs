@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{57A16898-FB7A-4A64-BEF9-C4607BF8A01E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SportsmanSpiritFightBack/SportsmanSpiritFightBack_LoginScreen.xaml">
+    <Files>
+      <File FileName="SportsmanSpiritFightBack/SportsmanSpiritFightBack_LoginScreen.xaml" Line="13" Column="5" />
+      <File FileName="SportsmanSpiritFightBack/SportsmanSpiritFightBackPage.xaml" Line="7" Column="16" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="12" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SportsmanSpiritFightBack.Droid PreferredExecutionTarget="Android.03157df340159640" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SportsmanSpiritFightBack HideGettingStarted="True" />
+</Properties>

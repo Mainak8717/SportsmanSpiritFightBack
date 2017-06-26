@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="SportsmanSpiritFightBack.SportsmanSpiritFightBack_LoginScreen"
+	NavigationPage.HasNavigationBar="false"
+	BackgroundImage = "w2_img_big.gif">
+	<StackLayout Orientation = "Vertical"
+		HorizontalOptions ="FillAndExpand"
+		VerticalOptions = "FillAndExpand">
+		<StackLayout Padding= "0,300,0,0"
+				HorizontalOptions = "FillAndExpand"
+				BackgroundColor = "Olive"
+				HeightRequest = "250">
+			<StackLayout Orientation = "Horizontal">
+				<Label Text="UserName:"
+					Font ="20"
+					FontAttributes ="Bold"
+					TextColor = "Yellow"
+					HorizontalTextAlignment ="Start" VerticalTextAlignment = "Center" HorizontalOptions = "FillAndExpand" VerticalOptions = "CenterAndExpand"/>
+				<Entry x:Name="userName"
+					HorizontalOptions = "StartAndExpand"
+					Placeholder ="Enter Username"
+					PlaceholderColor = "Silver"/>
+			</StackLayout>
+
+
+		</StackLayout>
+		
+	</StackLayout>
+		
+	
+
+</ContentPage>
