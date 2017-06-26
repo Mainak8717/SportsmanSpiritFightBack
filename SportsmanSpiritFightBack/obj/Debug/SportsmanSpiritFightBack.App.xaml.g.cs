@@ -11,7 +11,7 @@
 namespace SportsmanSpiritFightBack {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Mainak/Projects/SportsmanSpiritFightBack/SportsmanSpiritFightBack/App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/rajlakshmi/Desktop/SportsmanSpiritFightBack/SportsmanSpiritFightBack/App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

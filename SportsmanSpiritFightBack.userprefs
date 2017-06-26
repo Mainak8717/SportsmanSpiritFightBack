@@ -1,17 +1,22 @@
-﻿<Properties StartupConfiguration="{57A16898-FB7A-4A64-BEF9-C4607BF8A01E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SportsmanSpiritFightBack/SportsmanSpiritFightBack_LoginScreen.xaml">
+﻿<Properties StartupConfiguration="{57A16898-FB7A-4A64-BEF9-C4607BF8A01E}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SportsmanSpiritFightBack Status">
     <Files>
-      <File FileName="SportsmanSpiritFightBack/SportsmanSpiritFightBack_LoginScreen.xaml" Line="13" Column="5" />
-      <File FileName="SportsmanSpiritFightBack/SportsmanSpiritFightBackPage.xaml" Line="7" Column="16" />
-      <File FileName="Droid/Properties/AndroidManifest.xml" Line="12" Column="1" />
+      <File FileName="SportsmanSpiritFightBack/SportsmanSpiritFightBack_LoginScreen.xaml" Line="63" Column="18" />
+      <File FileName="SportsmanSpiritFightBack/SportsmanSpiritFightBackPage.xaml" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="16" Column="54" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="5" Column="4" />
+      <File FileName="SportsmanSpiritFightBack/SportsmanSpiritFightBack_RegistrationScreen.xaml" Line="50" Column="125" />
+      <File FileName="SportsmanSpiritFightBack Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/rajlakshmi/Desktop/SportsmanSpiritFightBack/SportsmanSpiritFightBack/SportsmanSpiritFightBack_LoginScreen.xaml.cs" relfile="SportsmanSpiritFightBack/SportsmanSpiritFightBack_LoginScreen.xaml.cs" line="20" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SportsmanSpiritFightBack.Droid PreferredExecutionTarget="Android.03157df340159640" />
+  <MonoDevelop.Ide.ItemProperties.SportsmanSpiritFightBack.Droid PreferredExecutionTarget="Android.1215fc21929d0505" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.SportsmanSpiritFightBack HideGettingStarted="True" />
 </Properties>

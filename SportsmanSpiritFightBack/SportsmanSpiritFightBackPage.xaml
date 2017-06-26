@@ -5,13 +5,22 @@
 	x:Class="SportsmanSpiritFightBack.SportsmanSpiritFightBackPage"
 	BackgroundImage = "img3.jpeg"
 	NavigationPage.HasNavigationBar="false">
-	<StackLayout Orientation = "Vertical" Padding = "0,400,0,0" Spacing = "20"
-		HorizontalOptions = "CenterAndExpand" VerticalOptions = "CenterAndExpand">
-		<Label x:Name = "loginLbl" Text = "Login / Register" Font = "22" FontAttributes = "Bold" TextColor = "Yellow" HorizontalTextAlignment = "Center"/>
-		<Label x:Name = "guestLbl" Text = "Guest" Font = "22" FontAttributes = "Bold" TextColor = "Yellow" HorizontalTextAlignment ="Center" />
-	</StackLayout>
-		
-	
-
-	
+	<StackLayout Orientation = "Vertical"
+			Padding = "0,400,0,0"
+			Spacing = "20"
+			HorizontalOptions = "CenterAndExpand"
+			VerticalOptions = "CenterAndExpand">
+		<Label x:Name = "loginLbl"
+			Text = "Login / Register"
+			Font = "22"
+			FontAttributes = "Bold"
+			TextColor = "Yellow"
+			HorizontalTextAlignment = "Center"/>
+		<Label x:Name = "guestLbl"
+			Text = "Guest"
+			Font = "22"
+			FontAttributes = "Bold"
+			TextColor = "Yellow"
+			HorizontalTextAlignment ="Center" />
+	</StackLayout>		
 </ContentPage>

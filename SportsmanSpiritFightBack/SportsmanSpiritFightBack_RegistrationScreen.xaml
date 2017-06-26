@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="SportsmanSpiritFightBack.SportsmanSpiritFightBack_RegistrationScreen" 
+	Title = "Register">
+<ScrollView Orientation = "Vertical" x:Name = "myScrollView" >
+	<StackLayout Orientation = "Vertical" x:Name="formStack" Spacing = "5">
+		<StackLayout Orientation = "Horizontal" HorizontalOptions = "Fill" WidthRequest = "300" Padding = "10,10,10,10">
+			<Label Text = "First Name:" VerticalOptions = "CenterAndExpand" VerticalTextAlignment ="Center" HorizontalOptions ="Start" FontSize ="18" FontAttributes ="Bold"/>
+			<Entry x:Name="firstName" HorizontalOptions = "EndAndExpand" WidthRequest = "200"/>
+		</StackLayout>
+		<StackLayout Orientation = "Horizontal" HorizontalOptions = "Fill" WidthRequest = "300" Padding = "10,10,10,10">
+			<Label Text = "Second Name:" VerticalOptions = "CenterAndExpand" VerticalTextAlignment ="Center" HorizontalOptions ="Start" FontSize ="18" FontAttributes ="Bold"/>
+			<Entry x:Name="secondName" HorizontalOptions = "EndAndExpand" WidthRequest = "200" />
+		</StackLayout>
+		<StackLayout Orientation = "Horizontal" HorizontalOptions = "Fill" WidthRequest = "300" Padding = "10,10,10,10">
+			<Label Text = "Address:" VerticalOptions = "CenterAndExpand" VerticalTextAlignment ="Center" HorizontalOptions ="Start" FontSize ="18" FontAttributes ="Bold"/>
+			<Entry x:Name="address" HorizontalOptions = "EndAndExpand" WidthRequest = "200"/>
+		</StackLayout>
+		<StackLayout Orientation = "Horizontal" HorizontalOptions = "Fill" WidthRequest = "300" Padding = "10,10,10,10">
+			<Label Text = "Mobile#:" VerticalOptions = "CenterAndExpand" VerticalTextAlignment ="Center" HorizontalOptions ="Start" FontSize ="18" FontAttributes ="Bold"/>
+			<Entry x:Name="mobile" HorizontalOptions = "EndAndExpand" WidthRequest = "200" Keyboard = "Telephone"/>
+		</StackLayout>
+		<StackLayout Orientation = "Horizontal" HorizontalOptions = "Fill" WidthRequest = "300" Padding = "10,10,10,10">
+			<Label Text = "Blood Group:" VerticalOptions = "CenterAndExpand" VerticalTextAlignment ="Center" HorizontalOptions ="Start" FontSize ="18" FontAttributes ="Bold"/>
+			<Entry x:Name="bloodGroup" HorizontalOptions = "EndAndExpand" WidthRequest = "200"/>
+		</StackLayout>
+		<StackLayout Orientation = "Horizontal" HorizontalOptions = "Fill" WidthRequest = "300" Padding = "10,10,10,10">
+			<Label Text = "Gaurdian Name:" VerticalOptions = "CenterAndExpand" VerticalTextAlignment ="Center" HorizontalOptions ="Start" FontSize ="18" FontAttributes ="Bold"/>
+			<Entry x:Name="gaurdian" HorizontalOptions = "EndAndExpand" WidthRequest = "200"/>
+		</StackLayout>
+		<StackLayout Orientation = "Horizontal" HorizontalOptions = "Fill" WidthRequest = "300" Padding = "10,10,10,10">
+			<Label Text = "Gaurdian Contact:" VerticalOptions = "CenterAndExpand" VerticalTextAlignment ="Center" HorizontalOptions ="Start" FontSize ="18" FontAttributes ="Bold"/>
+			<Entry x:Name="gaurdianContact" HorizontalOptions = "EndAndExpand" WidthRequest = "200" Keyboard = "Telephone"/>
+		</StackLayout>
+		<StackLayout Orientation = "Horizontal" HorizontalOptions = "Fill" WidthRequest = "300" Padding = "10,10,10,10">
+			<Label Text = "S.O.S Contact Person:" VerticalOptions = "CenterAndExpand" VerticalTextAlignment ="Center" HorizontalOptions ="Start" FontSize ="18" FontAttributes ="Bold"/>
+			<Entry x:Name="SOSContact" HorizontalOptions = "EndAndExpand" WidthRequest = "200" />
+		</StackLayout>
+		<StackLayout Orientation = "Horizontal" HorizontalOptions = "Fill" WidthRequest = "300" Padding = "10,10,10,10">
+			<Label Text = "S.O.S Mobile#:" VerticalOptions = "CenterAndExpand" VerticalTextAlignment ="Center" HorizontalOptions ="Start" FontSize ="18" FontAttributes ="Bold"/>
+			<Entry x:Name="SOSMobile" HorizontalOptions = "EndAndExpand" WidthRequest = "200" Keyboard = "Telephone"/>
+		</StackLayout>
+		<StackLayout Orientation = "Horizontal" HorizontalOptions = "Fill" WidthRequest = "300" Padding = "10,10,10,10">
+			<Label Text = "Username:" VerticalOptions = "CenterAndExpand" VerticalTextAlignment ="Center" HorizontalOptions ="Start" FontSize ="18" FontAttributes ="Bold"/>
+			<Entry x:Name="username" HorizontalOptions = "EndAndExpand" WidthRequest = "200" Keyboard = "Default"/>
+		</StackLayout>
+		<StackLayout Orientation = "Horizontal" HorizontalOptions = "Fill" WidthRequest = "300" Padding = "10,10,10,10">
+			<Label Text = "Password:" VerticalOptions = "CenterAndExpand" VerticalTextAlignment ="Center" HorizontalOptions ="Start" FontSize ="18" FontAttributes ="Bold"/>
+			<Entry x:Name="password" HorizontalOptions = "EndAndExpand" WidthRequest = "200" Keyboard = "Default" IsPassword = "true"/>
+		</StackLayout>
+			<StackLayout HorizontalOptions = "Center">
+						<Label x:Name = "Register"
+					Text = "Register"
+					Font = "22"
+					FontAttributes = "Bold"
+					TextColor = "Yellow"
+					HorizontalTextAlignment = "Center"
+					VerticalTextAlignment = "Center"
+					BackgroundColor = "Purple"
+					WidthRequest = "150"
+					HeightRequest = "40"/>	
+			</StackLayout>
+
+			<BoxView HeightRequest = "40" />
+	</StackLayout>
+</ScrollView>
+</ContentPage>
