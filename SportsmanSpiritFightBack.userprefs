@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{57A16898-FB7A-4A64-BEF9-C4607BF8A01E}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="SportsmanSpiritFightBack Status">
     <Files>
-      <File FileName="SportsmanSpiritFightBack/SportsmanSpiritFightBack_LoginScreen.xaml.cs" Line="30" Column="1" />
-      <File FileName="SportsmanSpiritFightBack/SportsmanSpiritFightBack_LoginScreen.xaml" Line="1" Column="1" />
-      <File FileName="SportsmanSpiritFightBack/SportsmanSpiritFightBackPage.xaml.cs" Line="31" Column="69" />
+      <File FileName="SportsmanSpiritFightBack/SportsmanSpiritFightBack_RegisteredUserHome.xaml.cs" Line="1" Column="1" />
+      <File FileName="SportsmanSpiritFightBack/SportsmanSpiritFightBack_RegisteredUserHome.xaml" Line="1" Column="1" />
       <File FileName="SportsmanSpiritFightBack Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
