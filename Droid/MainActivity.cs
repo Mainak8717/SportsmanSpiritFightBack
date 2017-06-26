@@ -14,7 +14,7 @@ namespace SportsmanSpiritFightBack.Droid
 {
 	[Activity(Label = "SportsmanSpiritFightBack.Droid",
 	          Icon = "@drawable/icon", Theme = "@style/MyTheme",
-	          ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, WindowSoftInputMode = SoftInput.AdjustPan)]
+	          ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
 	{
 		protected override void OnCreate(Bundle bundle)
@@ -25,10 +25,7 @@ namespace SportsmanSpiritFightBack.Droid
 			base.OnCreate(bundle);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
-			this.Window.AddFlags(WindowManagerFlags.Fullscreen);
-			this.Window.ClearFlags(WindowManagerFlags.Fullscreen);
-			Forms.SetTitleBarVisibility(AndroidTitleBarVisibility.Never);
-			//Xamarin.Forms.Application.Current.On<Xamarin.Forms.PlatformConfiguration.Android>().UseWindowSoftInputModeAdjust(WindowSoftInputModeAdjust.Resize);
+			global::Xamarin.Forms.Forms.SetTitleBarVisibility(Xamarin.Forms.AndroidTitleBarVisibility.Never);
 
 			LoadApplication(new App());
 		}

@@ -7,7 +7,8 @@ namespace SportsmanSpiritFightBack
 		public App()
 		{
 			InitializeComponent();
-			MainPage = new NavigationPage(new SportsmanSpiritFightBackPage ());
+			//MainPage = new NavigationPage(new SportsmanSpiritFightBackPage());
+			MainPage = new SportsmanSpiritFightBackPage();
 		}
 
 		protected override void OnStart()

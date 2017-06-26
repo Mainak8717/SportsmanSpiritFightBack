@@ -7,17 +7,28 @@ namespace SportsmanSpiritFightBack
 		public SportsmanSpiritFightBackPage()
 		{
 			InitializeComponent();
-			var tapGestureRecognizer = new TapGestureRecognizer();
-			tapGestureRecognizer.NumberOfTapsRequired = 1;
-			tapGestureRecognizer.Tapped += (s, e) => {
+
+			var tapGestureRecognizerLogin = new TapGestureRecognizer();
+			tapGestureRecognizerLogin.NumberOfTapsRequired = 1;
+			tapGestureRecognizerLogin.Tapped += (s, e) => {
 				OnLoginButtonClicked();
 			};
-			loginLbl.GestureRecognizers.Add(tapGestureRecognizer);		
-		}
+			loginLbl.GestureRecognizers.Add(tapGestureRecognizerLogin);	
 
+			var tapGestureRecognizerGuest = new TapGestureRecognizer();
+			tapGestureRecognizerGuest.NumberOfTapsRequired = 1;
+			tapGestureRecognizerGuest.Tapped += (s, e) => {
+				OnGuestButtonClicked();
+			};
+			guestLbl.GestureRecognizers.Add(tapGestureRecognizerGuest);	
+		}
+		void OnGuestButtonClicked()
+		{
+			App.Current.MainPage = new NavigationPage(new SportsmanSpiritFightBack_RegisteredUserHome());
+		}
 		void OnLoginButtonClicked()
 		{
-			Navigation.PushAsync(new SportsmanSpiritFightBack_LoginScreen());
+			App.Current.MainPage = new SportsmanSpiritFightBack_LoginScreen();
 		}
 	}
 }

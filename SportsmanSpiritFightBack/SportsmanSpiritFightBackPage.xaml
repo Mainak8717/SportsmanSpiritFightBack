@@ -3,8 +3,7 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	xmlns:local="clr-namespace:SportsmanSpiritFightBack"
 	x:Class="SportsmanSpiritFightBack.SportsmanSpiritFightBackPage"
-	BackgroundImage = "img3.jpeg"
-	NavigationPage.HasNavigationBar="false">
+	BackgroundImage = "img3.jpeg">
 	<StackLayout Orientation = "Vertical"
 			Padding = "0,400,0,0"
 			Spacing = "20"

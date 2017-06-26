@@ -36,6 +36,27 @@
     <EmbeddedResource Include="SportsmanSpiritFightBack_RegistrationScreen.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="SportsmanSpiritFightBack_HomeScreen.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportsmanSpiritFightBack_RegisteredUserHome.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportsmanSpiritFightBack_SituationChecklist.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportsmanSpiritFightBack_LegalHelp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportsmanSpiritFightBack_DemoVideos.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportsmanSpiritFightBack_FollowUp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportsmanSpiritFightBack_ContactUs.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -51,6 +72,29 @@
     <Compile Include="SportsmanSpiritFightBack_RegistrationScreen.xaml.cs">
       <DependentUpon>SportsmanSpiritFightBack_RegistrationScreen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SportsmanSpiritFightBack_HomeScreen.xaml.cs">
+      <DependentUpon>SportsmanSpiritFightBack_HomeScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SideMenuItem.cs" />
+    <Compile Include="ViewModel\MenuViewModel.cs" />
+    <Compile Include="SportsmanSpiritFightBack_RegisteredUserHome.xaml.cs">
+      <DependentUpon>SportsmanSpiritFightBack_RegisteredUserHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SportsmanSpiritFightBack_SituationChecklist.xaml.cs">
+      <DependentUpon>SportsmanSpiritFightBack_SituationChecklist.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SportsmanSpiritFightBack_LegalHelp.xaml.cs">
+      <DependentUpon>SportsmanSpiritFightBack_LegalHelp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SportsmanSpiritFightBack_DemoVideos.xaml.cs">
+      <DependentUpon>SportsmanSpiritFightBack_DemoVideos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SportsmanSpiritFightBack_FollowUp.xaml.cs">
+      <DependentUpon>SportsmanSpiritFightBack_FollowUp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SportsmanSpiritFightBack_ContactUs.xaml.cs">
+      <DependentUpon>SportsmanSpiritFightBack_ContactUs.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -65,6 +109,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="ViewModel\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
