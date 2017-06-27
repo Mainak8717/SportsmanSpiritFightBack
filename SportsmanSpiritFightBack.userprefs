@@ -8,13 +8,6 @@
       <File FileName="SportsmanSpiritFightBack/SportsmanSpiritFightBack_RegisteredUserHome.xaml.cs" Line="1" Column="1" />
       <File FileName="SportsmanSpiritFightBack Status" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="SportsmanSpiritFightBack" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
