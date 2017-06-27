@@ -4,7 +4,7 @@
 	xmlns:local="clr-namespace:SportsmanSpiritFightBack"
 	x:Class="SportsmanSpiritFightBack.SportsmanSpiritFightBackPage"
 	BackgroundImage = "img3.jpeg">
-	<StackLayout Orientation = "Vertical"
+<StackLayout Orientation = "Vertical"
 			Padding = "0,400,0,0"
 			Spacing = "20"
 			HorizontalOptions = "CenterAndExpand"
@@ -21,5 +21,5 @@
 			FontAttributes = "Bold"
 			TextColor = "Yellow"
 			HorizontalTextAlignment ="Center" />
-	</StackLayout>		
+	</StackLayout>
 </ContentPage>

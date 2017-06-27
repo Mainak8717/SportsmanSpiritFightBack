@@ -11,5 +11,9 @@ namespace SportsmanSpiritFightBack
 		{
 			InitializeComponent();
 		}
+		private async void Button_Clicked(object sender, EventArgs e)
+		{
+			await DisplayAlert("FAB Clicked!", "Congrats on creating your FAB!", "Thanks!");
+		}
 	}
 }
