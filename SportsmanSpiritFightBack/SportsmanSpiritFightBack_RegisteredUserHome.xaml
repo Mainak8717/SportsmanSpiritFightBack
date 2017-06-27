@@ -3,16 +3,21 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	xmlns:controls="clr-namespace:SuaveControls.Views;assembly=SuaveControls.FloatingActionButton"
 	x:Class="SportsmanSpiritFightBack.SportsmanSpiritFightBack_RegisteredUserHome"
-	Title = "Home">
+	Title = "Home"
+	BackgroundImage = "nightSky.jpg">
+	<ContentPage.ToolbarItems>
+  		<ToolbarItem x:Name="sos" Text = "S.O.S" Activated="OnClick"  Order="Primary" Priority="0" />
+	 </ContentPage.ToolbarItems>
+
 	<StackLayout>
-	<StackLayout HorizontalOptions = "End">
-        <controls:FloatingActionButton x:Name="FAB" HorizontalOptions="End" WidthRequest="50" HeightRequest="50"  VerticalOptions="Start" Image="ic_add_white.png" ButtonColor="#03A9F4" Clicked="Button_Clicked"/>
-    </StackLayout>
+<!--	<StackLayout HorizontalOptions = "End" BackgroundColor = "Transparent">
+        <controls:FloatingActionButton x:Name="FAB" HorizontalOptions="End" WidthRequest="50" HeightRequest="50"  VerticalOptions="Start" Text = "S.O.S" ButtonColor="#03A9F4" Clicked="Button_Clicked"/>
+    </StackLayout>-->
 	<ScrollView>
 	<StackLayout Spacing = "20" HorizontalOptions = "Center" VerticalOptions = "Center" Padding = "10,10,10,10">
-	<Image Source = "selfdefence.JPEG" WidthRequest = "300" HeightRequest = "200"/>
-	<Image Source = "video.JPEG" WidthRequest = "300" HeightRequest = "200"/>
-	<Image Source = "social.JPEG" WidthRequest = "300" HeightRequest = "200"/>
+	<Image Source = "selfDefenceImg.jpg" WidthRequest = "300" HeightRequest = "200"/>
+	<Image Source = "youtube.png" WidthRequest = "300" HeightRequest = "200"/>
+	<Image Source = "socialMediaImg.png" WidthRequest = "300" HeightRequest = "200"/>
 	</StackLayout>
 		</ScrollView>
 		</StackLayout>

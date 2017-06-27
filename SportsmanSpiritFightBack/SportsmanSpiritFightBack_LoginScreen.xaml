@@ -21,7 +21,8 @@
 				<Entry x:Name="userName"
 					HorizontalOptions = "FillAndExpand"
 					Placeholder ="Enter Username"
-					PlaceholderColor = "Silver"/>
+					PlaceholderColor = "Silver"
+					TextColor = "White"/>
 			</StackLayout>
 			<StackLayout Orientation = "Horizontal" Spacing = "0">
 				<Label Text="Password:"
@@ -35,7 +36,8 @@
 				<Entry x:Name="password"
 					HorizontalOptions = "FillAndExpand"
 					Placeholder ="Enter Password"
-					PlaceholderColor = "Silver"/>
+					PlaceholderColor = "Silver"
+					TextColor = "White"/>
 			</StackLayout>
 		</StackLayout>
 		<StackLayout Orientation ="Horizontal" HorizontalOptions = "CenterAndExpand">
